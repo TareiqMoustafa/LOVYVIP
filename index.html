@@ -6,140 +6,278 @@
     <title>هاكات لوفي VIP | قوتك المطلقة في ببجي موبايل</title>
     <meta name="description" content="انضم إلى أقوى قناة هاكات ببجي موبايل. ملفات حصرية، تحديثات فورية، وأداء أسطوري يجعلك تتصدر كل المعارك.">
     
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
     
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- AOS Animation Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- شريط الأخبار المتحرك -->
+    <div class="news-ticker">
+        <div class="ticker-content">
+            <span><i class="fas fa-bolt"></i> تحديث جديد: ملف الحماية v3.0 متاح الآن!</span>
+            <span><i class="fas fa-fire"></i> خصم 30% لأول 50 مشترك هذا الأسبوع</span>
+            <span><i class="fas fa-shield-alt"></i> نظام Anti-Ban مطوّر ضد آخر تحديث للعبة</span>
+            <span><i class="fas fa-bolt"></i> تحديث جديد: ملف الحماية v3.0 متاح الآن!</span>
+            <span><i class="fas fa-fire"></i> خصم 30% لأول 50 مشترك هذا الأسبوع</span>
+            <span><i class="fas fa-shield-alt"></i> نظام Anti-Ban مطوّر ضد آخر تحديث للعبة</span>
+        </div>
+    </div>
+
     <!-- شريط التنقل -->
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <div class="nav-container">
             <a href="#" class="logo">
-                <i class="fas fa-crown"></i> لوفي <span>VIP</span>
+                <span class="logo-icon"><i class="fas fa-crown"></i></span>
+                لوفي <span>VIP</span>
             </a>
             <div class="nav-links">
                 <a href="#features">المميزات</a>
-                <a href="#gallery">الملفات</a>
+                <a href="#how-to">طريقة التفعيل</a>
+                <a href="#gallery">النتائج</a>
                 <a href="#testimonials">آراء اللاعبين</a>
-                <a href="#faq">الأسئلة الشائعة</a>
+                <a href="#faq">الأسئلة</a>
             </div>
             <a href="https://t.me/lofyvip1" target="_blank" class="nav-cta">
-                انضم الآن <i class="fas fa-arrow-left"></i>
+                <i class="fab fa-telegram-plane"></i>
+                <span>انضم الآن</span>
             </a>
         </div>
     </nav>
 
-    <!-- قسم البطل (Hero Section) -->
+    <!-- قسم البطل -->
     <header class="hero">
-        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
-            <div class="hero-badge">
-                <i class="fas fa-fire"></i> الإصدار الأسطوري 2026 متاح الآن
-            </div>
-            <h1>قوتك المطلقة في <span class="highlight">ببجي موبايل</span></h1>
-            <p>ملفات هاك حصرية، أداء خارق، وتحديثات مستمرة تضمن لك السيطرة الكاملة على كل معركة. انضم إلى النخبة، وابدأ رحلة الهيمنة.</p>
-            <div class="hero-buttons">
-                <a href="https://t.me/lofyvip1" target="_blank" class="btn btn-primary">
-                    <i class="fab fa-telegram-plane"></i> اشترك في قناة التليجرام
-                </a>
-                <a href="https://youtube.com/@lofyvip15" target="_blank" class="btn btn-secondary">
-                    <i class="fab fa-youtube"></i> شاهد النتائج
-                </a>
-            </div>
-            <div class="hero-stats">
-                <div class="stat">
-                    <span class="stat-number">+10K</span>
-                    <span class="stat-label">عضو VIP</span>
+        <div class="hero-bg-glow"></div>
+        <div class="hero-grid-bg"></div>
+        
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <div class="hero-badge">
+                    <span class="pulse-dot"></span>
+                    الإصدار الأسطوري 2026 متاح الآن
                 </div>
-                <div class="stat">
-                    <span class="stat-number">99.9%</span>
-                    <span class="stat-label">استقرار الملف</span>
+                <h1>
+                    سيطر على <span class="gradient-text">ببجي موبايل</span>
+                    <br>بأقوى الملفات الحصرية
+                </h1>
+                <p class="hero-description">
+                    ملفات هاك مدفوعة بجودة عالية، أداء خارق، وتحديثات لحظية تضمن لك السيطرة الكاملة على كل معركة. انضم إلى نخبة اللاعبين المحترفين.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://t.me/lofyvip1" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-telegram-plane"></i>
+                        انضم لقناة التليجرام
+                    </a>
+                    <a href="https://youtube.com/@lofyvip15" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-youtube"></i>
+                        شاهد النتائج
+                    </a>
                 </div>
-                <div class="stat">
-                    <span class="stat-number">24/7</span>
-                    <span class="stat-label">دعم فني</span>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-icon"><i class="fas fa-users"></i></div>
+                        <div class="stat-info">
+                            <span class="stat-number" data-count="10000">+0</span>
+                            <span class="stat-label">عضو VIP</span>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-icon"><i class="fas fa-shield-alt"></i></div>
+                        <div class="stat-info">
+                            <span class="stat-number" data-count="99">0%</span>
+                            <span class="stat-label">استقرار الملف</span>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-icon"><i class="fas fa-headset"></i></div>
+                        <div class="stat-info">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="hero-image" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
-            <!-- يمكنك استبدال هذا بصورتك الخاصة -->
-            <img src="https://i.imgur.com/your-image.png" alt="هاك ببجي لوفي VIP" onerror="this.src='https://placehold.co/600x400/1a1a2e/ffffff?text=لوفي+VIP'">
+            
+            <div class="hero-visual" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
+                <div class="phone-mockup">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen">
+                        <img src="https://placehold.co/400x800/1a1a2e/00f2ff?text=LOFY+VIP+2026" alt="هاك ببجي لوفي VIP">
+                    </div>
+                </div>
+                <div class="floating-card card-1">
+                    <i class="fas fa-crosshairs"></i>
+                    <span>Aimbot Pro</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-eye"></i>
+                    <span>ESP Wall</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Anti-Ban</span>
+                </div>
+            </div>
         </div>
     </header>
+
+    <!-- شريط الشعارات / الثقة -->
+    <section class="trust-bar">
+        <div class="container">
+            <div class="trust-items">
+                <div class="trust-item"><i class="fas fa-check-circle"></i> تحديثات فورية</div>
+                <div class="trust-item"><i class="fas fa-check-circle"></i> دعم على مدار الساعة</div>
+                <div class="trust-item"><i class="fas fa-check-circle"></i> ملفات آمنة 100%</div>
+                <div class="trust-item"><i class="fas fa-check-circle"></i> جميع الأجهزة</div>
+            </div>
+        </div>
+    </section>
 
     <!-- قسم المميزات -->
     <section id="features" class="section features">
         <div class="container">
-            <h2 class="section-title" data-aos="fade-up">لماذا <span>لوفي VIP</span>؟</h2>
-            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">مميزات تجعلنا الخيار الأول لآلاف اللاعبين المحترفين</p>
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">المميزات</span>
+                <h2 class="section-title">لماذا تختار <span class="gradient-text">لوفي VIP</span>؟</h2>
+                <p class="section-subtitle">مميزات تجعلنا الخيار الأول لآلاف اللاعبين المحترفين في الوطن العربي</p>
+            </div>
             
             <div class="features-grid">
                 <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-number">01</div>
                     <div class="icon-box"><i class="fas fa-crosshairs"></i></div>
                     <h3>تصويب خارق (Aimbot)</h3>
                     <p>نظام تصويب ذكي يتكيف مع كل موقف، مع إمكانية ضبط القوة والمسافة. لا تترك فرصة للخصم للهروب.</p>
+                    <div class="feature-line"></div>
                 </div>
-                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="feature-number">02</div>
                     <div class="icon-box"><i class="fas fa-eye"></i></div>
                     <h3>رؤية شاملة (ESP)</h3>
                     <p>اكتشف مواقع الأعداء، صناديق الغنائم، والمركبات عبر الجدران. تحكم كامل في ساحة المعركة.</p>
+                    <div class="feature-line"></div>
                 </div>
-                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-number">03</div>
                     <div class="icon-box"><i class="fas fa-shield-alt"></i></div>
                     <h3>حماية متقدمة</h3>
-                    <p>نظام مضاد للحظر (Anti-Ban) مصمم خصيصاً ليبقيك بعيداً عن أنظمة كشف الغش. العب بثقة.</p>
+                    <p>نظام مضاد للحظر (Anti-Ban) مصمم خصيصاً ليبقيك بعيداً عن أنظمة كشف الغش. العب بثقة تامة.</p>
+                    <div class="feature-line"></div>
                 </div>
-                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="feature-number">04</div>
                     <div class="icon-box"><i class="fas fa-magic"></i></div>
                     <h3>بدون ارتداد (No Recoil)</h3>
                     <p>تحكم مثالي في السلاح، رشقات دقيقة، ودقة لا مثيل لها في المعارك القريبة والبعيدة.</p>
+                    <div class="feature-line"></div>
                 </div>
-                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-number">05</div>
                     <div class="icon-box"><i class="fas fa-tachometer-alt"></i></div>
                     <h3>أداء خارق (GFX)</h3>
-                    <p>افتح أعلى معدلات الإطارات (90/120 FPS) وأوضح الرسومات لأجهزة الضعيفة والمتوسطة.</p>
+                    <p>افتح أعلى معدلات الإطارات (90/120 FPS) وأوضح الرسومات حتى على الأجهزة الضعيفة والمتوسطة.</p>
+                    <div class="feature-line"></div>
                 </div>
-                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="350">
+                    <div class="feature-number">06</div>
                     <div class="icon-box"><i class="fas fa-sync-alt"></i></div>
                     <h3>تحديثات فورية</h3>
-                    <p>ملفاتنا تتحدث فور صدور تحديث اللعبة. لا تنتظر، انضم إلى القناة لتصلك التحديثات أولاً بأول.</p>
+                    <p>ملفاتنا تتحدث فور صدور تحديث اللعبة. لا تنتظر، انضم لتصلك التحديثات أولاً بأول.</p>
+                    <div class="feature-line"></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- قسم معرض الصور/الفيديو -->
+    <!-- قسم طريقة التفعيل -->
+    <section id="how-to" class="section how-to">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">طريقة التفعيل</span>
+                <h2 class="section-title">ابدأ في <span class="gradient-text">3 خطوات</span> فقط</h2>
+                <p class="section-subtitle">عملية بسيطة وسريعة لتفعيل ملفاتك والبدء في الهيمنة</p>
+            </div>
+            
+            <div class="steps-grid">
+                <div class="step-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-icon">
+                        <i class="fab fa-telegram-plane"></i>
+                        <span class="step-number">1</span>
+                    </div>
+                    <h3>انضم للقناة</h3>
+                    <p>اضغط على رابط قناة التليجرام وانضم إلى مجتمع لوفي VIP الرسمي.</p>
+                </div>
+                <div class="step-arrow"><i class="fas fa-arrow-left"></i></div>
+                <div class="step-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-icon">
+                        <i class="fas fa-download"></i>
+                        <span class="step-number">2</span>
+                    </div>
+                    <h3>حمّل الملف</h3>
+                    <p>اختر الملف المناسب لجهازك من المنشورات المثبتة وحمّله في ثوانٍ.</p>
+                </div>
+                <div class="step-arrow"><i class="fas fa-arrow-left"></i></div>
+                <div class="step-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-icon">
+                        <i class="fas fa-rocket"></i>
+                        <span class="step-number">3</span>
+                    </div>
+                    <h3>فعّل وانطلق</h3>
+                    <p>اتبع الشرح المفصّل، فعّل الملف، وابدأ في حصد الانتصارات فوراً.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المعرض -->
     <section id="gallery" class="section gallery">
         <div class="container">
-            <h2 class="section-title" data-aos="fade-up">شاهد <span>القوة</span> بنفسك</h2>
-            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">لقطات حقيقية من داخل اللعبة تثبت كلامنا</p>
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">النتائج</span>
+                <h2 class="section-title">شاهد <span class="gradient-text">القوة</span> بنفسك</h2>
+                <p class="section-subtitle">لقطات حقيقية وفيديوهات من داخل اللعبة تثبت كلامنا</p>
+            </div>
             
             <div class="gallery-grid">
-                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                    <img src="https://i.imgur.com/your-screenshot1.png" alt="لقطة شاشة 1" onerror="this.src='https://placehold.co/600x400/16213e/ffffff?text=لقطة+1'">
-                    <div class="overlay"><span>دقة التصويب</span></div>
+                <div class="gallery-item large" data-aos="zoom-in" data-aos-delay="100">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="فيديو حصري" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="overlay">
+                        <span class="overlay-tag">فيديو</span>
+                        <h4>أقوى لقطات Aimbot 2026</h4>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+                    <img src="https://placehold.co/600x400/16213e/00f2ff?text=ESP+Wall" alt="رؤية عبر الجدران">
+                    <div class="overlay">
+                        <span class="overlay-tag">لقطة</span>
+                        <h4>رؤية شاملة عبر الجدران</h4>
+                    </div>
                 </div>
                 <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="https://i.imgur.com/your-screenshot2.png" alt="لقطة شاشة 2" onerror="this.src='https://placehold.co/600x400/16213e/ffffff?text=لقطة+2'">
-                    <div class="overlay"><span>رؤية عبر الجدران</span></div>
+                    <img src="https://placehold.co/600x400/16213e/ffc107?text=Aimbot+Headshot" alt="تصويب الرأس">
+                    <div class="overlay">
+                        <span class="overlay-tag">لقطة</span>
+                        <h4>دقة تصويب الرأس 100%</h4>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+                    <img src="https://placehold.co/600x400/16213e/00f2ff?text=No+Recoil" alt="بدون ارتداد">
+                    <div class="overlay">
+                        <span class="overlay-tag">لقطة</span>
+                        <h4>تحكم مثالي بدون ارتداد</h4>
+                    </div>
                 </div>
                 <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-                    <!-- يمكنك تضمين فيديو يوتيوب هنا -->
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VIDEO_ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="overlay"><span>فيديو حصري</span></div>
-                </div>
-                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
-                    <img src="https://i.imgur.com/your-screenshot3.png" alt="لقطة شاشة 3" onerror="this.src='https://placehold.co/600x400/16213e/ffffff?text=لقطة+3'">
-                    <div class="overlay"><span>نتائج مبهرة</span></div>
+                    <img src="https://placehold.co/600x400/16213e/ffc107?text=Pro+Results" alt="نتائج احترافية">
+                    <div class="overlay">
+                        <span class="overlay-tag">لقطة</span>
+                        <h4>نتائج مبهرة في الرانك</h4>
+                    </div>
                 </div>
             </div>
         </div>
@@ -148,32 +286,54 @@
     <!-- قسم آراء المستخدمين -->
     <section id="testimonials" class="section testimonials">
         <div class="container">
-            <h2 class="section-title" data-aos="fade-up">ماذا يقول <span>الأساطير</span>؟</h2>
-            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">آراء حقيقية من أعضاء مجتمعنا</p>
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">آراء اللاعبين</span>
+                <h2 class="section-title">ماذا يقول <span class="gradient-text">الأساطير</span>؟</h2>
+                <p class="section-subtitle">آراء حقيقية من أعضاء مجتمعنا المحترم</p>
+            </div>
             
             <div class="testimonials-grid">
                 <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
-                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
                     <p>"والله ملفات نار، من يوم ما اشتركت معاهم وأنا بحصد البويايات. الدعم سريع والشرح واضح جداً."</p>
                     <div class="user-info">
                         <div class="avatar">أ</div>
-                        <div><h4>أحمد المصري</h4><span>لاعب محترف</span></div>
+                        <div>
+                            <h4>أحمد المصري</h4>
+                            <span>لاعب محترف - رانك كونكر</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card featured" data-aos="fade-up" data-aos-delay="150">
+                    <div class="featured-badge">الأكثر تقييماً</div>
+                    <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"أفضل قناة هاكات في الوطن العربي. الملفات قوية ومستقرة، والأهم إنها آمنة. اشتريت من كذا حد ولوفي هو الأفضل بلا منافس."</p>
+                    <div class="user-info">
+                        <div class="avatar">م</div>
+                        <div>
+                            <h4>محمد الخالدي</h4>
+                            <span>ستريمر يوتيوب</span>
+                        </div>
                     </div>
                 </div>
                 <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
-                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                    <p>"أفضل قناة هاكات في الوطن العربي. الملفات قوية ومستقرة، والأهم إنها آمنة. اشتريت من كذا حد ولوفي هو الأفضل."</p>
-                    <div class="user-info">
-                        <div class="avatar">م</div>
-                        <div><h4>محمد الخالدي</h4><span>ستريمر يوتيوب</span></div>
+                    <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
                     </div>
-                </div>
-                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
-                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
-                    <p>"كنت خايف من الحظر بس بعد ما جربت ملفات لوفي، حسابي صار له 3 شهور وما جاه أي شي. أنصح الكل."</p>
+                    <p>"كنت خايف من الحظر بس بعد ما جربت ملفات لوفي، حسابي صار له 3 شهور وما جاه أي شي. أنصح الكل وبقوة."</p>
                     <div class="user-info">
                         <div class="avatar">س</div>
-                        <div><h4>سارة العتيبي</h4><span>لاعبة ببجي</span></div>
+                        <div>
+                            <h4>سارة العتيبي</h4>
+                            <span>لاعبة ببجي</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -183,40 +343,43 @@
     <!-- قسم الأسئلة الشائعة -->
     <section id="faq" class="section faq">
         <div class="container">
-            <h2 class="section-title" data-aos="fade-up">أسئلة <span>شائعة</span></h2>
-            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">كل ما تريد معرفته قبل الانضمام</p>
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">الأسئلة</span>
+                <h2 class="section-title">أسئلة <span class="gradient-text">شائعة</span></h2>
+                <p class="section-subtitle">كل ما تريد معرفته قبل الانضمام إلى مجتمعنا</p>
+            </div>
             
             <div class="faq-list">
                 <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
                     <button class="faq-question">
-                        هل الملفات آمنة ولا تجيب حظر؟
+                        <span>هل الملفات آمنة ولا تجيب حظر؟</span>
                         <i class="fas fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
                         <p>ملفاتنا مصممة بأحدث تقنيات مضاد الحظر (Anti-Ban) وتخضع لاختبارات صارمة. نسبة الحظر شبه معدومة عند اتباع التعليمات الصحيحة. ومع ذلك، ننصح دائماً باستخدام حساب تجريبي في البداية.</p>
                     </div>
                 </div>
-                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="150">
                     <button class="faq-question">
-                        هل الملفات تشتغل على جميع الأجهزة؟
+                        <span>هل الملفات تشتغل على جميع الأجهزة؟</span>
                         <i class="fas fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
                         <p>نعم، نقدم ملفات متوافقة مع أجهزة الأندرويد (بما فيها الأجهزة الضعيفة) والأيفون والأيباد. كل ملف مكتوب بجانبه الأجهزة المدعومة لضمان أفضل أداء.</p>
                     </div>
                 </div>
-                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
                     <button class="faq-question">
-                        كيف أحصل على الملفات بعد الاشتراك؟
+                        <span>كيف أحصل على الملفات بعد الاشتراك؟</span>
                         <i class="fas fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
                         <p>بعد الاشتراك في قناة التليجرام، ستجد الملفات مثبتة ومشروحة خطوة بخطوة في المنشورات المثبتة. يمكنك أيضاً التواصل مع الدعم الفني لأي استفسار.</p>
                     </div>
                 </div>
-                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="250">
                     <button class="faq-question">
-                        هل يوجد دعم فني بعد الشراء؟
+                        <span>هل يوجد دعم فني بعد الاشتراك؟</span>
                         <i class="fas fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
@@ -227,18 +390,24 @@
         </div>
     </section>
 
-    <!-- قسم الدعوة النهائية (CTA) -->
+    <!-- قسم الدعوة النهائية -->
     <section class="final-cta">
-        <div class="container" data-aos="zoom-in">
-            <h2>جاهز للهيمنة على <span>ساحة المعركة</span>؟</h2>
-            <p>لا تضيع المزيد من المعارك. انضم إلى نخبة لوفي VIP الآن وابدأ في حصد الانتصارات.</p>
-            <div class="cta-buttons">
-                <a href="https://t.me/lofyvip1" target="_blank" class="btn btn-primary btn-large">
-                    <i class="fab fa-telegram-plane"></i> انضم لقناة التليجرام
-                </a>
-                <a href="https://youtube.com/@lofyvip15" target="_blank" class="btn btn-secondary btn-large">
-                    <i class="fab fa-youtube"></i> تابعنا على يوتيوب
-                </a>
+        <div class="cta-bg-glow"></div>
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <span class="cta-tag"><i class="fas fa-crown"></i> انضم للنخبة</span>
+                <h2>جاهز للهيمنة على <span class="gradient-text">ساحة المعركة</span>؟</h2>
+                <p>لا تضيع المزيد من المعارك. انضم إلى نخبة لوفي VIP الآن وابدأ في حصد الانتصارات.</p>
+                <div class="cta-buttons">
+                    <a href="https://t.me/lofyvip1" target="_blank" class="btn btn-primary btn-large">
+                        <i class="fab fa-telegram-plane"></i>
+                        انضم لقناة التليجرام
+                    </a>
+                    <a href="https://youtube.com/@lofyvip15" target="_blank" class="btn btn-outline btn-large">
+                        <i class="fab fa-youtube"></i>
+                        قناتنا على يوتيوب
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -248,29 +417,43 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <a href="#" class="logo"><i class="fas fa-crown"></i> لوفي <span>VIP</span></a>
-                    <p>وجهتك الأولى لكل ما هو حصري في عالم هاكات ببجي موبايل. قوة، استقرار، واحترافية.</p>
+                    <a href="#" class="logo">
+                        <span class="logo-icon"><i class="fas fa-crown"></i></span>
+                        لوفي <span>VIP</span>
+                    </a>
+                    <p>وجهتك الأولى لكل ما هو حصري في عالم هاكات ببجي موبايل. قوة، استقرار، واحترافية منذ اليوم الأول.</p>
+                    <div class="social-links">
+                        <a href="https://t.me/lofyvip1" target="_blank" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+                        <a href="https://youtube.com/@lofyvip15" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
                 </div>
                 <div class="footer-links">
                     <h4>روابط سريعة</h4>
+                    <a href="#features">المميزات</a>
+                    <a href="#how-to">طريقة التفعيل</a>
+                    <a href="#gallery">النتائج</a>
+                    <a href="#faq">الأسئلة الشائعة</a>
+                </div>
+                <div class="footer-links">
+                    <h4>تواصل معنا</h4>
                     <a href="https://t.me/lofyvip1" target="_blank"><i class="fab fa-telegram"></i> قناة التليجرام</a>
                     <a href="https://youtube.com/@lofyvip15" target="_blank"><i class="fab fa-youtube"></i> قناة اليوتيوب</a>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>© 2026 لوفي VIP. جميع الحقوق محفوظة. صُنع بشغف للأساطير.</p>
+                <p class="disclaimer">هذا المحتوى مخصص للأغراض التعليمية فقط.</p>
             </div>
         </div>
     </footer>
 
     <!-- زر عائم للتليجرام -->
-    <a href="https://t.me/lofyvip1" target="_blank" class="floating-cta">
+    <a href="https://t.me/lofyvip1" target="_blank" class="floating-cta" aria-label="انضم للتليجرام">
         <i class="fab fa-telegram-plane"></i>
         <span>انضم الآن</span>
     </a>
 
-    <!-- AOS Script -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
-</html>
+    </html>
